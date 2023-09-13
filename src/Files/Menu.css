@@ -64,3 +64,14 @@
 
     margin-left: 42px;
 }
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.1s ease-in-out;
+}

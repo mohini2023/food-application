@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.foodimg{
+    width: 100%;
+    border: 6px solid orangered;
+    position: relative;
+}
+.quote{
+    position: absolute;
+    top: 40%;
+    color: black;
+    width: 562px;
+    font-size: 24px;
+    font-family: cursive;
+    left: 80px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2), -3px -3px 6px rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    background-color: rgba(255, 69, 0, 0.5);
+    font-weight: 600;
+    padding: 37px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .quote {
+        position: absolute;
+        font-size: 13px;
+        top: 131px;
+        left: 38px;
+        width: 282px;
+    }
+}
+
+.btn{
+    background-color: white;
+    padding: 4px;
+    font-weight: 600;
+    margin-left: 114px;
+    margin-top: 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+}
+.btnIn{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+   .btn {
+    width: 100px;
+    margin-left: 10px;
+    }
+}

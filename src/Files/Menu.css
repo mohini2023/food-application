@@ -1,0 +1,66 @@
+.img1{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+   margin-left: 70px;
+    filter: unset;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+
+.box1 .active{
+    background-color: white !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ins{
+    text-align: center;
+    padding: 45px;
+    font-family: cursive;
+}
+  
+.secondcont{
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+@media screen and (min-width: 200px) and (max-width:768px) {
+   .img1{ 
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 10px;
+    }
+    
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    top: 44px;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+.thirdcont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Header > .Seemore{
+    background-color: #f26223;
+    border: none;
+    padding: 4px;
+    border-radius: 2px;
+
+    margin-left: 42px;
+}

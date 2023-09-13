@@ -1,0 +1,70 @@
+
+.first{
+    margin-left: 676px;
+}
+
+
+.navbar-expand-lg {
+    background-color: black;
+    height: 93px;
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+        color:white;
+}
+.foodie{
+    height: 210px;
+    margin-top: -57px;
+}
+
+
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    height: 80px;
+}
+
+
+
+.css-1q39md6-MuiButtonBase-root-MuiButton-root {
+    font-size: 50px;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    margin-top: -58px;
+    height: 197px;
+
+}
+.imgg{
+    height: 211px;
+   
+    margin-bottom: -51px;
+
+}
+
+@media screen and (min-width: 200px),(max-width:768px) {
+    .imgg {
+        margin-top: -59px;
+        margin-left: -105px;
+    }
+}
+
+#onee{
+    margin-left: 500px;
+column-gap: 30px;}
+.active{
+    color: white !important;
+    background-color: rgb(242 98 35) !important;
+    border-radius: 5PX;
+}
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    width: 120px;
+    padding-left: 20px;
+}
+.imgg2{
+    background-color: black;
+    width: 161px;
+    height: 135px;
+    margin-left: -37px;
+    margin-top: -23px;
+    padding-top: 15px;
+}

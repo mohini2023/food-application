@@ -5,21 +5,25 @@
 
 }
 .foodimg{
-    width: 100%;
+    width: 94%;
     border: 6px solid orangered;
     position: relative;
+    height: 605px;
+    margin: 40px;
+
 }
 .quote{
     position: absolute;
     top: 40%;
-    color: black;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: wheat;
     width: 562px;
     font-size: 24px;
     font-family: cursive;
     left: 80px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2), -3px -3px 6px rgba(255, 255, 255, 0.2);
     padding: 10px;
-    background-color: rgba(255, 69, 0, 0.5);
+    
     font-weight: 600;
     padding: 37px;
 }
@@ -31,6 +35,12 @@
         top: 131px;
         left: 38px;
         width: 282px;
+    }
+    .foodimg{
+        height: 277px;
+
+    margin-left: 9px;
+    margin-top: 10px;
     }
 }
 
@@ -55,4 +65,60 @@
     width: 100px;
     margin-left: 10px;
     }
+}
+ /* css for about page */
+
+ .col-lg-6 px-0{
+ display: flex;
+ flex-direction: row;
+ }
+ .container {
+    margin-top: 30px;
+ }
+ .livefood{
+    margin-top: 20px;
+ }
+ .food{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: monospace;
+ }
+ .social_icon{
+    /* display: flex; */
+    align-items: center;
+    /* flex-direction: column; */
+}
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .social_icon {
+      display: flex;
+      flex-direction: column;
+    }
+    .col-md-6{
+        width: 400px;
+        
+    }
+}
+
+.shop{
+    margin-left: 100px;
+}
+.micro{
+    margin-top: -45px;
+}
+.gog{
+    margin-left: 376px;
+    margin-top: -45px;
+}
+.ideas{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}h4{
+    margin-left: 10px;
+}
+.inspir{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -62px;
+
 }

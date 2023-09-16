@@ -1,9 +1,165 @@
-.conatctbody{
-    background: linear-gradient(white 50%, orangered 50%);
-
- 
-
-    height: 100vh;
-    width: 207vh;
-    border: 5px solid  red;
+.form_cont{
+    margin: 51PX;
+    height: 553px;
+    width: 448px;
+  
+    /* background-color: #f26223; */
 }
+.us{
+    TEXT-ALIGN: center;
+    margin-top:-19px;
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+#name{
+    height: 55px;
+    width: 393px;
+    margin-left: 26px;
+    margin-top: 25px;
+   border:  1px solid black;
+    color: #f26223;
+    font-weight: 600;
+    border: none;
+    border-radius:5px ;
+}
+#email{
+    height: 55px;
+    width: 393px;
+    margin-left: 26px;
+    margin-top: 25px;
+    border:  1px solid black;
+    color: #f26223;
+    font-weight: 600;
+    border: none;
+    border-radius:5px ;
+}
+#subject{
+    height: 55px;
+    width: 393px;
+    margin-left: 26px;
+    margin-top: 25px;
+    border:  1px solid black;
+    color: #f26223;
+    font-weight: 600;
+    border: none;
+    border-radius:5px ;
+}
+#message{
+    height: 65px;
+    width: 393px;
+    margin-left: 26px;
+    margin-top: 25px;
+    border:  1px solid black;
+    color: #f26223;
+    font-weight: 600;
+    border: none;
+    border-radius:5px ;
+}
+.buttoncon{
+    margin-left: 26px;
+    margin-top: 13px;
+    height: 37px;
+    width: 150px;
+    border-radius: 4px;
+    background-color: #f26223;
+    font-weight: 600;
+    margin-left: 140px;
+    font-size: 20px;
+}
+#name::placeholder{
+    color: #f26223;
+  text-align:justify;
+  font-weight: 600;
+  padding-left: 10px;
+}
+#email::placeholder{
+    color: #f26223;
+  text-align:justify;
+  font-weight: 600;
+  padding-left: 10px;
+}
+#message::placeholder{
+    color: #f26223;
+  text-align:justify;
+  font-weight: 600;
+  padding-left: 10px;
+ 
+}
+#subject::placeholder{
+    color: #f26223;
+  text-align:justify;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.firstdiv{
+    height: 800px;
+     display: flex;
+     /* border: 5px solid #f26223e6; */
+     height: 600px;
+     margin: 100px;
+     box-shadow: 0 0 10px  #f26223;
+     width: 1056px;
+     background-color: aliceblue;
+
+
+}
+.custom{
+    height: 525px;
+    margin-left: -53px;
+}
+.back{
+  
+    height: 700px;
+    /* margin-top: -101px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@media screen and (min-width: 200px) and (max-width:768px) {
+    .firstdiv{ 
+     display: flex;
+     flex-direction: column;
+     height: fit-content;
+     width: 100%;
+     }
+     .us{
+        margin-top: 52px;
+        font-size: 33px;
+    }
+    .form_cont{
+        width: fit-content;
+    }
+     #name{
+        width: 249px;
+    height: 36px;
+    margin-top: -8px;
+     }
+     #email{
+        width: 249px;
+    height: 36px;
+     }
+     #message{
+        width: 249px;
+    height: 50px;
+     }
+     #subject{
+        width: 249px;
+    height: 36px;
+     }
+     
+     .buttoncon{
+        margin-left: 68px;
+}
+.custom{
+    margin-top: -120px;
+    height: 343px;
+    margin-left: 15px;
+}
+
+     }
+ .input-field{
+    margin: 100px;
+ }

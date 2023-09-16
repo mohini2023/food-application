@@ -26,12 +26,6 @@ function CollapsibleExample() {
     return location.pathname === path ? 'active' : '';
   };
 
-  const closeDrawer = () => {
-    if (isMobile) {
-      setDrawerOpen(false); // Close the drawer
-    }
-  };
-
   return (
     <>
       <Navbar collapseOnSelect expand="lg" className="navii">
@@ -47,26 +41,35 @@ function CollapsibleExample() {
               aria-label="open drawer"
               edge="start"
               onClick={toggleDrawer}
-              sx={{ mt: -1, display: { sm: 'none', xs: 'block' } }}
+              sx={{  mt:-1, display: { sm: 'none',xs:'block'} }}
             >
+
+
+              
               <MenuIcon />
             </IconButton>
           )}
 
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav id="onee">
-              <Nav.Link as={Link} to="/menu" onClick={closeDrawer} className={isActive('/menu')}>
-                Menu
-              </Nav.Link>
-              <Nav.Link as={Link} to="/" onClick={closeDrawer} className={isActive('/')}>
+          
+            <Nav id="onee" >
+            <Nav.Link as={Link} to="/" className={isActive('/')}>
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/contact" onClick={closeDrawer} className={isActive('/contact')}>
+              <Nav.Link as={Link} to="/menu" className={isActive('/menu')}>
+                Menu
+              </Nav.Link>
+             
+              <Nav.Link as={Link} to="/contact" className={isActive('/contact')}>
                 Contact
               </Nav.Link>
-              <Nav.Link as={Link} to="/about" onClick={closeDrawer} className={isActive('/about')}>
+              <Nav.Link as={Link} to="/about" className={isActive('/about')}>
                 About
               </Nav.Link>
+              <Nav.Link as={Link} to="/SeachRecipe" className={isActive('/SeachRecipe')}>
+         Recipes
+              </Nav.Link>
+           
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -77,21 +80,25 @@ function CollapsibleExample() {
           anchor="right"
           open={drawerOpen}
           onClose={toggleDrawer}
-        >
-          <img className="imgg" src={Img} alt="Logo" />
-          <Nav>
-            <Nav.Link as={Link} to="/menu" onClick={closeDrawer} className={isActive('/menu')}>
+          
+        ><img className="imgg2" src={Img} alt="Logo" />
+          <Nav>   
+            <Nav.Link as={Link} to="/menu" id="menuu"onClick={toggleDrawer} className={isActive('/menu')}>
               Menu
             </Nav.Link>
-            <Nav.Link as={Link} to="/" onClick={closeDrawer} className={isActive('/')}>
+            <Nav.Link as={Link} to="/" onClick={toggleDrawer} className={isActive('/')}>
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/contact" onClick={closeDrawer} className={isActive('/contact')}>
+            <Nav.Link as={Link} to="/contact" onClick={toggleDrawer} className={isActive('/contact')}>
               Contact
             </Nav.Link>
-            <Nav.Link as={Link} to="/about" onClick={closeDrawer} className={isActive('/about')}>
+            <Nav.Link as={Link} to="/about" onClick={toggleDrawer} className={isActive('/about')}>
               About
             </Nav.Link>
+            <Nav.Link as={Link} to="/SeachRecipe"  onClick={toggleDrawer} className={isActive('/SeachRecipe')}>
+         Recipes
+              </Nav.Link>
+           
           </Nav>
         </Drawer>
       )}

@@ -16,7 +16,7 @@ const Footer = () => {
       }}
     >
       <Container>
-        <Typography variant="body2" align="center"> &copy; {new Date().getFullYear()}
+        <Typography variant="body2" align="center"> 2023 SheRise - All Rights Reserved {new Date().getFullYear()}
         </Typography>
       </Container>
     </Box>

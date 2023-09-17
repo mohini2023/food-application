@@ -113,8 +113,6 @@
     margin-top: 100px;
     display: flex;
     justify-content: space-evenly;
-}h4{
-    margin-left: 10px;
 }
 .inspir{
     text-align: center;
@@ -122,3 +120,128 @@
     margin-bottom: -62px;
 
 }
+.homesecond{
+   
+        height: 307px;
+        /* display: flex; */
+        /* justify-content: center; */
+        width: 59%;
+        position: relative;
+       height: 350px;
+       margin-left: 278px;
+}
+.guide{
+    position: absolute;
+ 
+    left: 594px;
+    z-index: 9;
+    padding: 10px;
+    background: orangered;
+    top: 747px;
+    font-size: 21px;
+    color: wheat;
+
+}
+.desingercont{
+    height: 300px;
+    width: 520px;
+
+}
+.designersecondcont{
+    height: 300px;
+    width: 520px;
+    border-left: 1px solid grey;
+}
+.desinermaindiv{
+    display: flex;
+    justify-content: center;
+    margin: 39px;
+}
+.homedispl{
+    display: flex;
+}
+.img11{
+    margin:14px
+}
+.img11text{
+    margin-top: 29px;
+    font-size: 18px;
+}
+.spetcook{
+    
+        font-size: 43px;
+        margin-top: 12px;
+        letter-spacing: -2px;
+        font-family: monospace;
+        margin-left: 50px;  
+    
+}
+.fav_snack{
+    font-size: 17px;
+    padding: 3px;
+    margin-left: 55px;
+
+}
+.viewcomp{
+    color: red;
+    font-size: 18px;
+    padding: 10px;
+    background: antiquewhite;
+    width: 189px;
+    margin-left: 167px;
+    margin-top: 10px;
+  }
+  
+@media screen and (min-width: 200px) and (max-width:768px) {
+    .homesecond { 
+        width: 315px;
+    height: 128px;
+    margin-left: 25px;
+    position: relative;
+     }
+     .guide{
+        width: 172px;
+        position: inherit;
+        margin-left: 97px;
+     }
+     .viewcomp{
+        font-size: 14px;
+        margin-left: 28px;
+        width: 183px
+     } 
+     .spetcook {
+        font-size: 23px;
+        width: 274px;
+        margin-left: 5px;
+     }
+     .fav_snack{
+        font-size: 14px;
+    margin-left: 6px;
+    width: 216px;
+    margin-top: -21px;
+     }
+     .img11{
+        height: 50px;
+        
+     }
+     .img11text{
+        font-size: 13px;
+       
+        width: 169px;
+        margin-top: 19px;
+     }
+     .desinermaindiv {
+        display: flex;
+        flex-direction: column;
+     }
+     .designersecondcont{
+
+    margin-left: -22px;
+    margin-top: -122px;
+    height: 235px;
+    width: 300px;
+}
+.desingercont{
+    width: fit-content;
+}
+    }

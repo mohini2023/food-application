@@ -46,6 +46,20 @@
         margin-top: -90px;
         margin-left: -105px;
     }
+    .css-1ajk008 {
+        position: absolute;
+        width: 100%;
+    }
+    .footlogo{
+        margin-left: -44px;
+        margin-top: -30px;
+    }
+    .footertext {
+        margin-top: 11px;
+        font-size: 18px;
+        margin-left: -49px;
+    
+    }
 }
 
 #onee{
@@ -71,4 +85,24 @@ column-gap: 30px;}
 
 #menuu{
     margin-top: 16px;
+}
+.footlogo{
+    
+    margin-top: -21px;
+    left: -204px;
+}
+.footertext{
+    
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: -49px;
+}
+.css-1ypfif-MuiTypography-root{
+  justify-content: center;
+    height: 64px;
+  display: flex;
+  margin-left: -93px;
+}
+.css-1ypfif-MuiTypography-root {
+    margin-left: -93px;
 }

@@ -127,10 +127,10 @@ column-gap: 30px;}
 @media screen and (min-width: 200px),(max-width:768px) {
     .footlogo{
         margin-top: -159px;
-        margin-top: -159px;
+        
         position: absolute;
         top: 127px;
-        left: -3px;
+      
     
     }
 .footertext{

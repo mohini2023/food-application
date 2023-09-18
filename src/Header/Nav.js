@@ -84,7 +84,7 @@ function CollapsibleExample() {
         ><img className="imgg2" src={Img} alt="Logo" />
         <div className='drwaer_opennn'>
           <Nav>
-            <Nav.Link as={Link} to="/" onClick={toggleDrawer} className={isActive('/')}>
+            <Nav.Link as={Link} to="/" onClick={toggleDrawer} id='homedrawer' className={isActive('/')}>
               Home
             </Nav.Link>
             <Nav.Link as={Link} to="/menu" id="menuu" onClick={toggleDrawer} className={isActive('/menu')}>

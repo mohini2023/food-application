@@ -70,7 +70,8 @@ column-gap: 30px;}
 .active{
     color: white !important;
     background-color: rgb(242 98 35) !important;
-    border-radius: 5PX;
+    border-radius: 5px;
+    margin-right: 16px;
 }
 .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
     width: 120px;
@@ -92,13 +93,22 @@ column-gap: 30px;}
     display: flex;
     flex-direction: column;
 }
-
+ 
+ #homedrawer{
+    margin-top: 13px;
+    margin-bottom: -16px;
+    margin-left: 15px;
+ }
+ .css-vubbuv {
+    margin-top: -55px;
+ }
  /* ........... above css is for header ................. */
 .footlogo{
     
     margin-top: -21px;
     left: -204px;
 }
+
 .footertext{
     
     margin-top: 30px;
@@ -114,4 +124,18 @@ column-gap: 30px;}
 .css-1ypfif-MuiTypography-root {
     margin-left: -93px;
 }
+@media screen and (min-width: 200px),(max-width:768px) {
+    .footlogo{
+        margin-top: -159px;
+        margin-top: -159px;
+        position: absolute;
+        top: 127px;
+        left: -3px;
+    
+    }
+.footertext{
+    font-size: 18px;
+    margin-left: 74px;
+    margin-top: 30px;
+}}
 /* .............above code is for  footer...... */

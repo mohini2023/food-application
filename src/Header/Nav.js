@@ -82,6 +82,7 @@ function CollapsibleExample() {
           onClose={toggleDrawer}
 
         ><img className="imgg2" src={Img} alt="Logo" />
+        <div className='drwaer_opennn'>
           <Nav>
             <Nav.Link as={Link} to="/" onClick={toggleDrawer} className={isActive('/')}>
               Home
@@ -101,6 +102,7 @@ function CollapsibleExample() {
 
 
           </Nav>
+          </div>
         </Drawer>
       )}
     </>

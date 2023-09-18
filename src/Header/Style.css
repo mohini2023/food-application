@@ -88,6 +88,10 @@ column-gap: 30px;}
 #menuu{
     margin-top: 16px;
 }
+.nav{
+    display: flex;
+    flex-direction: column;
+}
 
  /* ........... above css is for header ................. */
 .footlogo{
